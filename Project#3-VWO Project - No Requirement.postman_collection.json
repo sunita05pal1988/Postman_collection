@@ -1,0 +1,185 @@
+{
+	"info": {
+		"_postman_id": "87256767-358c-4e6f-8fc6-cb3bb4612e47",
+		"name": "Project#3-VWO Project - No Requirement",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20984765",
+		"_collection_link": "https://www.postman.com/solar-zodiac-105932/workspace/atb13x/collection/20984765-87256767-358c-4e6f-8fc6-cb3bb4612e47?action=share&source=collection_link&creator=20984765"
+	},
+	"item": [
+		{
+			"name": "Login VWO API (Valid)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json;charset=UTF-8"
+					},
+					{
+						"key": "origin",
+						"value": "https://app.vwo.com"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://app.vwo.com/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Google Chrome\";v=\"138\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Cookie",
+						"value": "_vwo_uuid=DA170F8E47B41A9A9DC8FA17D831170E4; _vis_opt_s=1%7C; _vis_opt_test_cookie=1; _vwo_ssm=1; _vis_opt_exp_222_combi=2; _vis_opt_exp_299_combi=2; _vis_opt_exp_303_combi=2; _vis_opt_exp_318_combi=2; _vwo_ds=3%3Aa_1%2Ct_1%3A0%241753893995%3A90.25523234%3A96_0_1_0_1%2C97_0_1_0_1%2C111_0_1_0_5%2C119_0_1_0_1%2C118_0_1_0_1%2C122_0_1_0_1%2C135_0_1_0_1%2C235_0_1_0_1%2C243_0_1_0_1%2C248_0_1_0_1%2C253_0_1_0_1%2C266_0_1_0_1%3A16_1%2C20_1%2C22_1%2C42_1%2C48_1%2C59_1%3A15_1%2C14_1%3A2; lang=en; _vis_opt_exp_341_combi=2; _vis_opt_exp_313_combi=2; _vwo_sn=0%3A6%3Ar5.visualwebsiteoptimizer.com%3A3%3A1%3Areferrer%3DaHR0cHM6Ly9hcHAuZXJhc2VyLmlvLw%3D%3D; _ga_LBVC51CNX9=GS2.2.s1753894295$o1$g1$t1753894295$j60$l0$h0; _gcl_au=1.1.731575493.1753893997.1452620912.1753894246.1753894564"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"sunita.singh@dreamstel.com\",\"password\":\"Winter@05\",\"remember\":false,\"recaptcha_response_field\":\"\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://app.vwo.com/login",
+					"protocol": "https",
+					"host": [
+						"app",
+						"vwo",
+						"com"
+					],
+					"path": [
+						"login"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://app.vwo.com/login' \\\r\n  -H 'accept: */*' \\\r\n  -H 'accept-language: en-US,en;q=0.9' \\\r\n  -H 'content-type: application/json;charset=UTF-8' \\\r\n  -b '_vwo_uuid=DA170F8E47B41A9A9DC8FA17D831170E4; _vis_opt_s=1%7C; _vis_opt_test_cookie=1; _vwo_ssm=1; _vis_opt_exp_222_combi=2; _vis_opt_exp_299_combi=2; _vis_opt_exp_303_combi=2; _vis_opt_exp_318_combi=2; _vwo_ds=3%3Aa_1%2Ct_1%3A0%241753893995%3A90.25523234%3A96_0_1_0_1%2C97_0_1_0_1%2C111_0_1_0_5%2C119_0_1_0_1%2C118_0_1_0_1%2C122_0_1_0_1%2C135_0_1_0_1%2C235_0_1_0_1%2C243_0_1_0_1%2C248_0_1_0_1%2C253_0_1_0_1%2C266_0_1_0_1%3A16_1%2C20_1%2C22_1%2C42_1%2C48_1%2C59_1%3A15_1%2C14_1%3A2; lang=en; _vis_opt_exp_341_combi=2; _vis_opt_exp_313_combi=2; _vwo_sn=0%3A6%3Ar5.visualwebsiteoptimizer.com%3A3%3A1%3Areferrer%3DaHR0cHM6Ly9hcHAuZXJhc2VyLmlvLw%3D%3D; _ga_LBVC51CNX9=GS2.2.s1753894295$o1$g1$t1753894295$j60$l0$h0; _gcl_au=1.1.731575493.1753893997.1452620912.1753894246.1753894564' \\\r\n  -H 'origin: https://app.vwo.com' \\\r\n  -H 'priority: u=1, i' \\\r\n  -H 'referer: https://app.vwo.com/' \\\r\n  -H 'sec-ch-ua: \"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Google Chrome\";v=\"138\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: empty' \\\r\n  -H 'sec-fetch-mode: cors' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36' \\\r\n  --data-raw '{\"username\":\"sunita.singh@dreamstel.com\",\"password\":\"Winter@05\",\"remember\":false,\"recaptcha_response_field\":\"\"}'"
+			},
+			"response": []
+		},
+		{
+			"name": "Login VWO API (InValid) Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json;charset=UTF-8"
+					},
+					{
+						"key": "origin",
+						"value": "https://app.vwo.com"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://app.vwo.com/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Google Chrome\";v=\"138\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Cookie",
+						"value": "_vwo_uuid=DA170F8E47B41A9A9DC8FA17D831170E4; _vis_opt_s=1%7C; _vis_opt_test_cookie=1; _vwo_ssm=1; _vis_opt_exp_222_combi=2; _vis_opt_exp_299_combi=2; _vis_opt_exp_303_combi=2; _vis_opt_exp_318_combi=2; _vwo_ds=3%3Aa_1%2Ct_1%3A0%241753893995%3A90.25523234%3A96_0_1_0_1%2C97_0_1_0_1%2C111_0_1_0_5%2C119_0_1_0_1%2C118_0_1_0_1%2C122_0_1_0_1%2C135_0_1_0_1%2C235_0_1_0_1%2C243_0_1_0_1%2C248_0_1_0_1%2C253_0_1_0_1%2C266_0_1_0_1%3A16_1%2C20_1%2C22_1%2C42_1%2C48_1%2C59_1%3A15_1%2C14_1%3A2; lang=en; _vis_opt_exp_341_combi=2; _vis_opt_exp_313_combi=2; _vwo_sn=0%3A6%3Ar5.visualwebsiteoptimizer.com%3A3%3A1%3Areferrer%3DaHR0cHM6Ly9hcHAuZXJhc2VyLmlvLw%3D%3D; _ga_LBVC51CNX9=GS2.2.s1753894295$o1$g1$t1753894295$j60$l0$h0; _gcl_au=1.1.731575493.1753893997.1452620912.1753894246.1753894564"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"sunita.singh@dreamstel.com\",\r\n    \"password\": \"Winter@0532\",\r\n    \"remember\": false,\r\n    \"recaptcha_response_field\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://app.vwo.com/login",
+					"protocol": "https",
+					"host": [
+						"app",
+						"vwo",
+						"com"
+					],
+					"path": [
+						"login"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://app.vwo.com/login' \\\r\n  -H 'accept: */*' \\\r\n  -H 'accept-language: en-US,en;q=0.9' \\\r\n  -H 'content-type: application/json;charset=UTF-8' \\\r\n  -b '_vwo_uuid=DA170F8E47B41A9A9DC8FA17D831170E4; _vis_opt_s=1%7C; _vis_opt_test_cookie=1; _vwo_ssm=1; _vis_opt_exp_222_combi=2; _vis_opt_exp_299_combi=2; _vis_opt_exp_303_combi=2; _vis_opt_exp_318_combi=2; _vwo_ds=3%3Aa_1%2Ct_1%3A0%241753893995%3A90.25523234%3A96_0_1_0_1%2C97_0_1_0_1%2C111_0_1_0_5%2C119_0_1_0_1%2C118_0_1_0_1%2C122_0_1_0_1%2C135_0_1_0_1%2C235_0_1_0_1%2C243_0_1_0_1%2C248_0_1_0_1%2C253_0_1_0_1%2C266_0_1_0_1%3A16_1%2C20_1%2C22_1%2C42_1%2C48_1%2C59_1%3A15_1%2C14_1%3A2; lang=en; _vis_opt_exp_341_combi=2; _vis_opt_exp_313_combi=2; _vwo_sn=0%3A6%3Ar5.visualwebsiteoptimizer.com%3A3%3A1%3Areferrer%3DaHR0cHM6Ly9hcHAuZXJhc2VyLmlvLw%3D%3D; _ga_LBVC51CNX9=GS2.2.s1753894295$o1$g1$t1753894295$j60$l0$h0; _gcl_au=1.1.731575493.1753893997.1452620912.1753894246.1753894564' \\\r\n  -H 'origin: https://app.vwo.com' \\\r\n  -H 'priority: u=1, i' \\\r\n  -H 'referer: https://app.vwo.com/' \\\r\n  -H 'sec-ch-ua: \"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Google Chrome\";v=\"138\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: empty' \\\r\n  -H 'sec-fetch-mode: cors' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36' \\\r\n  --data-raw '{\"username\":\"sunita.singh@dreamstel.com\",\"password\":\"Winter@05\",\"remember\":false,\"recaptcha_response_field\":\"\"}'"
+			},
+			"response": []
+		}
+	]
+}
